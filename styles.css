@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+/* --------------RESEt-------------- */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid lime !important; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+body {
+    background-image: url(marc-zimmer-63FGdC9rnOM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+
+
+h1 {
+    font-size: 2rem; 
+    font-family: 'Roboto';
+    color: white; 
+    padding-top: 4rem;
+    padding-left: 1rem; 
+}
+
+
+/* Media query for screens above 600px */
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 3rem; 
+        padding-left: 3rem;
+    }
+}
+
+
+
+    
